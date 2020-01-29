@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Magic 8 Ball</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Magic 8</h1>
+  <p>Escribe tu pregunta:</p>
+  <span>¿</span>
+  <select id="opciones">
+    <option>Tendré</option>
+    <option >Podré</option>
+    <option>Estaré</option>
+    <option>Sabré</option>
+    <option>Lograré</option>
+    <option>Me casaré con...</option>
+    <option>Voy a...</option>
+    <option>Viajaré a...</option>
+  </select>
+  <input type="text" id="inputPregunta"/>
+  <span>?</span>
+  <div class="eight-ball">
+    <div class="respuesta">
+      <p id="numeroOcho">8</p>
+      <p id="parrafoRespuesta"></p>
+    </div>
+  </div>
+  <button onclick="activarBolaOcho()">   Preguntar </button>
+  <div class="iconobox">
+    <div class="caja1">
+      <img src="" id="imagenTema" alt="">
+    </div>
+    <div class="caja2">
+      <img src="" id="imagenEmoji" alt="">
+    </div>
+  </div>
+<script src="script.js" charset="utf-8"></script>
+</body>
+</html>
